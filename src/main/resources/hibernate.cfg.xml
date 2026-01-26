@@ -17,6 +17,17 @@
         <property name="format_sql">true</property>
         
         <property name="connection.pool_size">5</property>
-
+        
+        <mapping class="com.cursojava.entidades.Categoria"/>
+        <mapping class="com.cursojava.entidades.Cliente"/>
+        <mapping class="com.cursojava.entidades.Funcionario"/>
+        <mapping class="com.cursojava.entidades.Marca"/>
+        <mapping class="com.cursojava.entidades.Producto"/>
+        <mapping class="com.cursojava.entidades.Venta"/>
+        <mapping class="com.cursojava.entidades.VentaDetalle"/>
+        
     </session-factory>
+    
+    
+    
 </hibernate-configuration>
