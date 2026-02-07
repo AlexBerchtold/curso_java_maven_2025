@@ -1,17 +1,16 @@
 package com.cursojava.vista;
 
 import java.awt.EventQueue;
+import java.awt.Insets;
 
 import javax.swing.JFrame;
+import javax.swing.JMenu;
+import javax.swing.JMenuBar;
 import javax.swing.border.EmptyBorder;
 
-import com.cursojava.componentes.JPanelPantallaPrincipal;
-import javax.swing.JButton;
 import com.cursojava.componentes.JButonPantallaPrincipal;
-import javax.swing.JMenuBar;
-import javax.swing.JMenu;
-import java.awt.Insets;
 import com.cursojava.componentes.JMenuItemPersonalizado;
+import com.cursojava.componentes.JPanelPantallaPrincipal;
 
 public class PantallaInicialVista extends JFrame {
 
@@ -100,23 +99,23 @@ public class PantallaInicialVista extends JFrame {
 		menuBar.add(mnListados);
 		
 		mnListadoCategorias = new JMenuItemPersonalizado();
-		mnListadoCategorias.setText("Categorias");
+		mnListadoCategorias.setText("Listado de Categorias");
 		mnListados.add(mnListadoCategorias);
 		
 		mnListadoClientes = new JMenuItemPersonalizado();
-		mnListadoClientes.setText("Clientes");
+		mnListadoClientes.setText("Listado de Clientes");
 		mnListados.add(mnListadoClientes);
 		
 		mnListadoFuncoinarios = new JMenuItemPersonalizado();
-		mnListadoFuncoinarios.setText("Funcionarios");
+		mnListadoFuncoinarios.setText("Listado de Funcionarios");
 		mnListados.add(mnListadoFuncoinarios);
 		
 		mnListadoMarcas = new JMenuItemPersonalizado();
-		mnListadoMarcas.setText("Marcas");
+		mnListadoMarcas.setText("Listado de Marcas");
 		mnListados.add(mnListadoMarcas);
 		
 		mnListadoProductos = new JMenuItemPersonalizado();
-		mnListadoProductos.setText("Productos");
+		mnListadoProductos.setText("Listado de Productos");
 		mnListados.add(mnListadoProductos);
 		
 		JMenu mnInformes = new JMenu("Informes");
@@ -124,7 +123,7 @@ public class PantallaInicialVista extends JFrame {
 		menuBar.add(mnInformes);
 		
 		mnListadoVentas = new JMenuItemPersonalizado();
-		mnListadoVentas.setText("Ventas");
+		mnListadoVentas.setText("Informe de Ventas");
 		mnInformes.add(mnListadoVentas);
 		
 		JMenu mnUtilidades = new JMenu("Utilidades");
